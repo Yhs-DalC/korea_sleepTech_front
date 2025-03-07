@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>emmet</title>
+</head>
+<body>
+  <!-- 단순 태그: 태그명 + tab | Enter -->
+  <!-- 태그의 클래스, Id속성을 추가 -->
+  <!-- 태그명. 클래스명/태그명#Id명 -->
+  <div class="container"></div>
+  <div id="unique"></div>
+
+  <!-- cf) 태그명 생략 후 클래스, Id 속성 지정 시 div 태그로 인식 -->
+  <!-- (.)만 지정 시 div태그에 class속성이 비어진 형태로 인식 -->
+  <div class="class-div"></div>
+  <div id="id-div"></div>
+  
+  <!-- ! 중첩과 형제 관계 -->
+  <!-- 자식 요소: 태그 안에 포함된 태그(부모태그 > 자식태그) -->
+  <ul>
+    <li id="as1"></li>
+    <li id="as2"></li>
+    <li id="as3"></li>
+    <li id="as4"></li>
+  </ul>
+  <!-- ul>li*4#as$ -->
+  <!-- 형제 요소: 같은 선상의 요소 -->
+
+  <!-- !반복 요소와 그룹핑 -->
+  <!-- 반복 요소(태그*반복숫자값) -->
+   <!-- 그룹핑: 여러 emmet 기능을 동시 적용 -->
+    <!-- header>nav^footer -->
+</body>
+</html>
