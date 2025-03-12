@@ -43,3 +43,58 @@
 .example2 .flex-3{
   flex: 1 200px;
 }
+/* 
+! flex 속성
+: grow + shrink + basis
+*/
+/* 
+? grow 속성: 늘어나는 비율 지정
+*/
+.example3 .grow1{
+  /* 나머지  item에 속성 지정을 하지 않을 경우 남은 공간을 모두 차지 */
+  flex-grow: 1;
+}
+.example3 .grow2{
+  flex-grow: 2;
+}
+.example3 .grow3{
+  flex-grow: 3;
+}
+/* 
+? shrimk 속성
+: 줄어드는 속도를 지정
+*/
+.example4{
+  display: flex;
+  width: 600px;
+  border: 1px solid black;
+}
+.example4 .item{
+  flex-grow: 1;
+  flex-basis: 200px;
+  margin: 5px;
+}
+/* .shrink1{
+  flex-shrink: 1;
+}
+.shrink2{
+  flex-shrink: 2;
+}
+.shrink3{
+  flex-shrink: 3;
+} */
+/* 
+? basis: 아이템의 기본 크기
+*/
+.example5 .basis1{
+  flex-basis: 100px;
+  flex-shrink: 3;
+}
+.example5 .basis2{
+  flex-basis: 200px;
+  flex-shrink: 3;
+}
+.example5 .basis3{
+  flex-basis: 300px;
+  flex-shrink: 1;
+}
