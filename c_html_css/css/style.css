@@ -67,7 +67,6 @@ nav {
   padding:  0 5px;
 }
 
-/* ! */
 nav ul {
   /*  
   - 리스트는 수평 배치, 중앙에 정렬
@@ -118,7 +117,7 @@ nav ul li a:focus {
     */
     background-color: var(--main-color);
     color: white;
-    border: var(--accent-color);
+    border: 1px solid var(--accent-color);
     border-radius: 5px;
 }
 
