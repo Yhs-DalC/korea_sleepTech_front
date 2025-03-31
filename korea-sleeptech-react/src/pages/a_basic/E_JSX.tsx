@@ -25,7 +25,7 @@ function E_JSX() {
           src={cat.catUrl + cat.description + cat.imageId} 
           alt={cat.name} 
           width={cat.imageTheme.width} 
-          height={cat.imageTheme.height }
+          height={cat.imageTheme.height}
         />
       </div>
     </>

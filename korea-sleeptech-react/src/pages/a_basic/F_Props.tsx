@@ -34,7 +34,7 @@ type MultiPropsType = {
 function MultiProps({ name = '김명진', colorProps }: MultiPropsType) {
   // 여러 개의 props가 전달되더라도 하나의 객체로 전달받음
   // : 위 처럼 객체나 배열 내부의 요소들을 한번 각각의 요소 변수에 할당하는
-  //!   , 구조 분해 할당(비구조화 할당) 가능
+  //! 구조 분해 할당(비구조화 할당) 가능
   
   //! 기본 속성값 지정
   // : 컴포넌트 호출 시 props를 전달하지 않을 경우 지정될 기본값
