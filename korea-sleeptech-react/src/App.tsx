@@ -9,6 +9,7 @@ import './App.css'
 // >> index.tsx 파일은 해당 파일이 포함된 폴더의 메인 파일로 인식
 // >> import 시 폴더명 만으로 가져오기 가능
 import Basic from '@/pages/a_basic';//@/pages/a_basic/index.tsx 와 동일
+import Hooks from '@/pages/b_hooks'
 
 //& 기본 Vite React 맵의 경로
 // : http://loaclhost:5173
@@ -25,6 +26,7 @@ function App() {
           http://loaclhost:5173/basic
         */}
         <Route path='/basic' element={<Basic />}/>
+        <Route path='/hooks' element={<Hooks />}/>
       </Routes>
     </>
   )
